@@ -10,6 +10,7 @@ import { useAuthStore } from './store/useAuthStore';
 import { useThemeStore } from './store/useThemeStore';
 import {Loader} from "lucide-react";
 import { Toaster } from 'react-hot-toast';
+import { Navigate } from 'react-router-dom';
 
 const App = () => {
   const {authUser, checkAuth, isCheckingAuth} = useAuthStore()
