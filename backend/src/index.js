@@ -18,7 +18,6 @@ app.get('/', (req, res) => {
   res.send('default page');
 });
 
-app.use(authRoutes);
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors({
