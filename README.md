@@ -27,3 +27,5 @@ This project demonstrates skills in **frontend & backend development, WebSockets
 - **Backend:** Node.js, Express.js, WebSockets  
 - **Database:** MongoDB  
 - **Tools:** Git, Postman, VS Code  
+
+next version coming soon !
